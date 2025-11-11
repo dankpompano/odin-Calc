@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  padding: 2%;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  background-color: darkgray;
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+}
+
+#inputScreen {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 2%;
+  width: 90%;
+  height: 25px;
+  color: aliceblue;
+  padding: 3%;
+  font-size: large;
+  background-color: black;
+}
+
+.inputArea {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 5%;
+  gap: 10px;
+  margin-top: 10%;
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 75px;
+  flex-wrap: wrap;
+}
+
+.operators {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 10%;
+  flex-wrap: wrap;
+  gap: 5px;
+}
